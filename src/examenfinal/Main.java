@@ -15,7 +15,23 @@ public class Main {
         playlist.agregarCancion(cancion3);
 
         playlist.mostrarPlaylist();
+
+        System.out.println();
+        playlist.siguiente();
+
+        System.out.println();
+        playlist.siguiente();
+
+        System.out.println();
+        playlist.anterior();
+
+        System.out.println();
+        playlist.eliminarActual();
+
+        System.out.println();
+        playlist.mostrarPlaylist();
     }
 }
+
 
 
